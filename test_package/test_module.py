@@ -8,6 +8,8 @@ class Employee:
     
     num_of_emps = 0
     raise_amount = 1.04
+    list1 = ['Test0', 'Test1', 'Test2', 'Test3']
+    
     
     def __init__(self, first, last, pay):
         self.first = first
@@ -42,5 +44,6 @@ class Employee:
 emp_1 = Employee('Isaac', 'Greer', 50000)
 emp_2 = Employee('Cloud', 'Chaser', 60000)
 
-print(emp_1.email)
-print(emp_2.email)
+print("Item 1: " + "\n" + Employee.list1[0])
+print("\nItem 2: " + "\n" + Employee.list1[1])
+print("\nItem 3: " + "\n" + Employee.list1[2])
